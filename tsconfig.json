@@ -6,9 +6,9 @@
       "dom.iterable",
       "esnext"
     ],
-    "skipLibCheck": true,
     "allowJs": true,
     "skipLibCheck": true,
+    "ignoreDeprecations": "6.0",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -20,7 +20,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["@types/babel__generator/index.d.ts"]
   },
   "include": [
     "src"
