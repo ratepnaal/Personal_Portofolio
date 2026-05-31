@@ -84,6 +84,10 @@ export const Container = styled.section`
     }
   }
 
+    @media (max-width: 600px){
+      padding: 0 1.5rem;
+    }
+
   @media (max-width: 960px){
     display: block;
     text-align: center;

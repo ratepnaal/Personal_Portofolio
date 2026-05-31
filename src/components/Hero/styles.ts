@@ -68,9 +68,9 @@ export const Container = styled.section`
   }
 
   @media(max-width: 600px){
-    margin-top: 35%;
+    margin-top: 28%;
   }
   @media(max-width: 480px){
-    margin-top: 45%;
+    margin-top: 34%;
   }
 `

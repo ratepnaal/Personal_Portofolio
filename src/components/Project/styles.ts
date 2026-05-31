@@ -89,4 +89,8 @@ export const Container = styled.section`
       grid-template-columns: 1fr;
     }
   }
+
+  @media (max-width: 600px){
+    padding: 0 1.5rem;
+  }
 `
