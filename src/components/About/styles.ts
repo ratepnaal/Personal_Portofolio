@@ -73,42 +73,42 @@ export const Container = styled.section`
     .about-image {
       max-width: 100%;
       margin-top: 4rem;
-      img{
+      img {
         margin-top: 2rem;
         width: 100%;
         filter: grayscale(0);
         transition: filter 0.5s;
-        &:hover{
+        &:hover {
           filter: grayscale(0);
         }
+      }
     }
   }
 
-    @media (max-width: 600px){
-      padding: 0 1.5rem;
-    }
+  @media (max-width: 600px) {
+    padding: 0 1.5rem;
+  }
 
-  @media (max-width: 960px){
+  @media (max-width: 960px) {
     display: block;
     text-align: center;
     
-    .hard-skills{
+    .hard-skills {
       justify-content: center;
     }
-    .about-image{
+    
+    .about-image {
       display: flex;
       max-width: 100%;
-      img{
+      img {
         margin-top: 2rem;
         width: 100%;
         filter: grayscale(0);
         transition: filter 0.5s;
-        &:hover{
+        &:hover {
           filter: grayscale(0);
         }
+      }
     }
-    
-    
   }
-
 `

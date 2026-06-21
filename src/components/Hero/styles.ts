@@ -54,7 +54,7 @@ export const Container = styled.section`
 
   @media(max-width: 960px){
     display: block;
-    margin-top: 15%;
+    margin-top: 8rem;
     .hero-text{
 
       h1{
@@ -68,9 +68,23 @@ export const Container = styled.section`
   }
 
   @media(max-width: 600px){
-    margin-top: 28%;
+    margin-top: 8rem;
   }
   @media(max-width: 480px){
-    margin-top: 34%;
+    margin-top: 8rem;
+    .hero-text{
+      h1{
+        font-size: 3.8rem;
+      }
+      p.small-resume{
+        margin-bottom: 2.5rem;
+      }
+    }
+    .button{
+      margin-top: 3rem;
+    }
+    .social-media{
+      padding-top: 3rem;
+    }
   }
 `

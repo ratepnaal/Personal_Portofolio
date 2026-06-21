@@ -79,12 +79,14 @@ export const Container = styled.section`
   }
 
   @media (max-width: 960px){
+    margin-top: 8rem;
     .projects{
       grid-template-columns: 1fr 1fr;
     }
   }
 
   @media (max-width: 740px){
+    margin-top: 8rem;
     .projects{
       grid-template-columns: 1fr;
     }
@@ -92,5 +94,9 @@ export const Container = styled.section`
 
   @media (max-width: 600px){
     padding: 0 1.5rem;
+    h2{
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
   }
 `

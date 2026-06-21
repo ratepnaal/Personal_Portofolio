@@ -52,6 +52,7 @@ export const Container = styled.section`
 
 
   @media(max-width: 960px){
+    margin-top: 8rem;
     .contacts{
       flex-direction: column;
       div{
@@ -62,6 +63,22 @@ export const Container = styled.section`
 
   @media(max-width: 600px){
     padding: 0 1.5rem;
+  }
+
+  @media(max-width: 480px){
+    .contacts{
+      gap: 1rem;
+      div{
+        padding: 1.2rem 1.6rem;
+        gap: 1rem;
+        a{
+          font-size: 1.4rem;
+        }
+        img{
+          width: 3.2rem;
+        }
+      }
+    }
   }
   
 `

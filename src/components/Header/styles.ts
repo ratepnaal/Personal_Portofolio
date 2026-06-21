@@ -151,6 +151,7 @@ export const Container = styled.header`
 
     .menu{
       display: block;
+      z-index: 1200;
     }
 
     nav {
@@ -170,6 +171,12 @@ export const Container = styled.header`
       left: 0;
       transition: opacity 0.25s;
       background-color: var(--green);
+      gap: 3rem;
+      z-index: 1100;
+
+      a {
+        font-size: 2.2rem;
+      }
 
       a.button{
         background-color: var(--pink);
